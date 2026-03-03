@@ -1,4 +1,6 @@
 import { useNavigate } from "react-router-dom";
+import profile from "../assets/sunil.png";
+
 
 const Home = () => {
   const navigate = useNavigate();
@@ -41,7 +43,8 @@ const Home = () => {
       <div
         className="w-full lg:w-5/12 flex items-center justify-center mt-8 lg:mt-0 ">
         <img
-          src="src\assets\sunil.png"
+          src={profile}
+          alt="Sunil Reddy M"
           className="h-60 w-60 md:h-72 md:w-72 lg:h-80 lg:w-80 object-cover outline-2 outline-purple-900 outline-offset-2 rounded-4xl hover:scale-110 duration-500 shadow-xl"
         />
       </div>

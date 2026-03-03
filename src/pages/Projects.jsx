@@ -1,3 +1,8 @@
+import amazio from "../assets/amazio.png";
+import fbs from "../assets/fbs.png";
+import dashboard from "../assets/BlinkitDashboard.jpg";
+import UI from "../assets/UI.png";
+
 const Projects = () => {
   return (
     <div className="px-4 sm:px-6 md:px-12 lg:px-24 py-16">
@@ -8,7 +13,7 @@ const Projects = () => {
 
         <div className="rounded-xl shadow-xl bg-violet-50 transition duration-300 flex flex-col justify-between ">
           <img
-            src="src/assets/amazio.png"
+            src={amazio}
             alt="Amazio – Full Stack E-Commerce Application"
             className="rounded-t-xl shadow-md border border-gray-200 object-cover"
           />
@@ -62,7 +67,7 @@ const Projects = () => {
         </div>
         <div className="rounded-xl shadow-xl bg-violet-50 transition duration-300 flex flex-col justify-between ">
           <img
-            src="src/assets/fbs.png"
+            src={fbs}
             alt="Flight Booking System"
             className="rounded-t-xl shadow-md border border-gray-200 object-cover"
           />
@@ -103,7 +108,7 @@ const Projects = () => {
         </div>
         <div className="rounded-xl shadow-xl bg-violet-50 transition duration-300 flex flex-col justify-between ">
           <img
-            src="src/assets/BlinkitDashboard.jpg"
+            src={dashboard}
             className="h-63 w-112 rounded-t-xl md:h-90 md:w-full shadow-md border border-gray-200 "
             alt="Blinkit Sales Dashboard"
           />
@@ -139,7 +144,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="rounded-xl shadow-xl bg-violet-50 transition duration-300 flex flex-col justify-between ">
-          <img src="src/assets/UI.png" className="rounded-t-xl shadow-md border border-gray-200" />
+          <img src={UI} alt="MultiModal Information Retrieval System" className="rounded-t-xl shadow-md border border-gray-200" />
           <div className="p-6">
             <h2 className=" text-xl sm:text-2xl font-semibold mb-4">
               MultiModal Information Retrieval System
