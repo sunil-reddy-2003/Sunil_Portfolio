@@ -14,8 +14,9 @@ const Skills = () => {
                     </h2>
                     <div className="font-semibold text-slate-600 space-y-1">
                         <p>Java</p>
-                        <p>C Programming</p>
                         <p>JavaScript</p>
+                        <p>Python</p>
+                        <p>C Programming</p>
                         <p>SQL</p>
                     </div>
                 </div>
